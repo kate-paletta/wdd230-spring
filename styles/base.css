@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Space+Grotesk:wght@300..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 h1 {
     font-family: "Poetsen One", sans-serif;
@@ -13,6 +14,7 @@ nav {
 }
 nav ul {
     list-style-type: none;
+    margin: 0;
 }
 nav a {
     display: block;
@@ -21,6 +23,7 @@ nav a {
     padding: .5rem;
     text-decoration: none;
     font-family: "Space Grotesk", sans-serif;
+    font-weight: 800;
 }
 nav a:hover {
     background-color: rgba(255,255,255, 0.2);
@@ -28,7 +31,17 @@ nav a:hover {
 nav .active {
     background-color: rgba(0,0,0,0.5);
 }
+main h1 {
+    text-align: center;
+}
 section h2 {
+    text-align: center;
+}
+section li {
+    font-family: "Teachers", sans-serif;
+}
+section div {
+    font-family: "Teachers", sans-serif;
     text-align: center;
 }
 
@@ -40,4 +53,5 @@ footer {
     background-color: #845a6d;
     text-align: center;
     font-family: "Space Grotesk", sans-serif;
+    font-weight: 800;
 }
